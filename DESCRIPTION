@@ -1,0 +1,20 @@
+Package: cytostats
+Type: Package
+Title: Statistical Functions for Single-Cell Analysis
+Version: 0.0.0.9000
+Date: 2018-02-13
+Authors@R: c(person("Mohammad", "Rohban", email = "mrohban@broadinstitute.org", role = c("aut", "cre")),
+    person("Shantanu", "Singh", email = "shsingh@broadinstitute.org", role = c("aut"))
+  )
+Description: Single-cell analysis requires efficient implementation of 
+    statistical functions to handle the high-dimensionality of the data.
+License: BSD_3_clause + file LICENSE
+Imports: 
+    doParallel (>= 1.0.10),
+    foreach (>= 1.4.3),
+    magrittr (>= 1.5),
+    Rcpp (>= 0.12.15)
+Suggests:
+    testthat (>= 1.0.2)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.0.1
